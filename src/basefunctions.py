@@ -1,6 +1,6 @@
 import random
 import os
-import listenforinput
+import listenforinput as listenforinput
 
 
 def selectinputmethod():

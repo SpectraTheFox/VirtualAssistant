@@ -3,15 +3,17 @@ import importlib
 import basefunctions
 
 
-def main():
+
+def run(inputmethod, userinput):
     print("Welcome to SpectraTheFox's Virtual Assistant!")
     print("Initializing...")
 
-    inputmethod = basefunctions.selectinputmethod()
+    if inputmethod is None:
+        inputmethod = basefunctions.selectinputmethod()
 
-    userinput = basefunctions.useinputmethod(inputmethod)
 
     if userinput is None:
+        userinput = basefunctions.useinputmethod(inputmethod)
         print("No valid input received. Exiting.")
         return
     
@@ -35,4 +37,3 @@ def main():
             print("No valid input received. Exiting.")
             return
 
-main()
