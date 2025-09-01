@@ -37,4 +37,3 @@ def run(inputmethod, userinput):
             print("No valid input received. Exiting.")
             return
 
-run(None, None)
