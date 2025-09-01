@@ -1,2 +1,3 @@
 importlib
 pyttsx3
+python-dotenv
