@@ -25,7 +25,7 @@ def run(inputmethod, userinput):
         else:
             for line in basefunctions.listmodules():
                 module = importlib.import_module(f"modules.{line}")
-                \
+                
                 if module.checkactivation(userinput):
                     response = module.run(userinput)
                     print(f"Assistant: {response}")
@@ -37,3 +37,4 @@ def run(inputmethod, userinput):
             print("No valid input received. Exiting.")
             return
 
+run(None, None)

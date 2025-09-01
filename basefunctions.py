@@ -58,7 +58,7 @@ def getrandomfarewell():
 
 def listmodules():
     moduleslist = []
-    for (dirpath, dirnames, filenames) in os.walk("src/modules"):
+    for (dirpath, dirnames, filenames) in os.walk("modules"):
         moduleslist.extend(filenames)
         break
     moduleslist = [x.replace(".py", "") for x in moduleslist]
