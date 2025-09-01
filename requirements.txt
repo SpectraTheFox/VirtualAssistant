@@ -3,3 +3,4 @@ pyttsx3
 python-dotenv
 elevenlabs
 pygame
+SpeechRecognition
