@@ -16,7 +16,7 @@ Creating your own commands is straightforward. Follow the format of `module_temp
 ***
 ## Running the Program
 To run the program, use the following command in your terminal: 
-`python main.py`.
+`python run.py`.
 The terminal will update with information such as thinking status, startup, prints its outputs as they are said, etc.
 ***
 ## License
